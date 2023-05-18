@@ -14,8 +14,8 @@ sorgente2 -> [compilatore] -> oggetto2 ->
  double: 8 byte
 
  OPERATORI ARITMETICI:
- x+y  più
- +x   più unario
+ x+y  piu'
+ +x   piu' unario
  x-y  meno
  -x   meno unario
  x*y  moltiplica
@@ -71,7 +71,7 @@ int main()
 
 
     for(auto& x : v)
-        cout << x << endl;
+        cout << x*20 << endl;
     return 0;
 }
 

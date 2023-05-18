@@ -66,9 +66,12 @@ int main()
     auto b = true;
     auto ch = 'h';
     auto i = 123;
-    auto d = 1.5;
-    auto z = sqrt(y);
+    auto d4 = 1.5;
+    //auto z = sqrt(i);
 
+
+    for(auto& x : v)
+        cout << x << endl;
     return 0;
 }
 

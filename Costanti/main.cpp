@@ -12,5 +12,7 @@ int main() {
    constexpr int DIM = 10 * i;
    cout << DIM << endl;
 
-   
+   int j = 0;
+   cin >> j;
+   cout << "reded: " << j << endl;
 }
